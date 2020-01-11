@@ -6,13 +6,13 @@ To deploy this simple api follow the steps below. You will need nodeJS and the s
 
 2. yarn install (or use npm)
 
-3. To run the tests run `yarn test`
+3. run `yarn deploy`
 
-4. run `yarn deploy`
+4. The api url will be printed into the console after successful deploy.
 
-5. The api url will be printed into the console after successful deploy.
+5. If you don't want to deploy the endpoint, you can call one I have already deployed using the url `https://g4r0x9c5w1.execute-api.eu-west-1.amazonaws.com/dev/adoptions`
 
-6. If you don't want to deploy the endpoint, you can call one I have already deployed using the url `https://5ldacrg550.execute-api.eu-west-1.amazonaws.com/dev/adoptions`
+6. To run the tests run `yarn test`
 
 
 ## Endpoints
