@@ -2,8 +2,8 @@ const axios = require('axios');
 
 const { getDogs, getCats, getHamsters } = require('../../helpers/get-animals');
 
-const { mockAnimals, mockExpectedDescending, mockExpectedAscending } = require('../mock-data/animal-data');
-const { mockCats, mockCatsExpectedResult } = require('../mock-data/cat-data');
+const { mockAnimals, mockExpectedDescending, mockExpectedAscending } = require('../../__mocks__/animal-data');
+const { mockCats, mockCatsExpectedResult } = require('../../__mocks__/cat-data');
 
 jest.mock('axios');
 console.error = jest.fn();
