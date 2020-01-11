@@ -10,9 +10,11 @@ To deploy this simple api follow the steps below. You will need nodeJS and the s
 
 4. If you want to deploy the endpoint you will need to configure an env file which stores the API url required to fetch the animal data. An example can be seen in the sample-env.yml file.
 
-Create a env.yml file at the root of the project - and add `BASE_API_URL: 'my api'` with the correct api url.
+  To do this create a `env.yml` file at the root of the project - and add `BASE_API_URL: 'my api'` with the correct api url.
 
 5. run `yarn deploy`
+
+6. If you want to just test the endpoint, you can call the endpoint I have already deployed using the url `https://5ldacrg550.execute-api.eu-west-1.amazonaws.com/dev/adoptions`
 
 
 ## Endpoints
