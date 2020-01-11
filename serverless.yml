@@ -5,7 +5,8 @@ provider:
   runtime: nodejs12.x
   region: eu-west-1
   environment:
-    BASE_URL: ${file(env.yml):BASE_API_URL}
+    # In a real app should import this url from an env file.
+    BASE_URL: 'https://apigateway.test.lifeworks.com/rescue-shelter-api'
 
 functions:
   adoptions:
